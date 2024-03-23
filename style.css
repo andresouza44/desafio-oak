@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: #1E2326;
+    color: white;
+}
+
+
+header{
+    background-color: #1E2326;
+    text-align: center;
+    font-size: 2em;
+    padding: 30px;
+}
+
+.cadastro{
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background-color: #40AC6F;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.listagem{
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    background-color: #40AC6F;
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+}
+
+table{
+    margin: auto;
+}
+
+
+.th-produto{
+    text-align: left;
+    padding: 30px;
+    color: #000;
+}
+
+.th-valor{
+    text-align: right;
+    padding: 30px;
+    color: #000;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%; /* Largura da caixa de entrada */
+    height: 40px; /* Altura da caixa de entrada */
+    background-color: #59AE9E; /* Cor de fundo da caixa de entrada */
+    border: 0px solid #ccc; /* Borda da caixa de entrada */
+    border-radius: 5px; /* Raio dos cantos da caixa de entrada */
+    padding: 8px; /* Preenchimento interno da caixa de entrada */
+    font-size: 0.75em; /* Tamanho da fonte da caixa de entrada */
+    color: white; /* Cor do texto da caixa de entrada */
+}
+
+
+
+.p-itens{
+    text-align: left;
+    font-size: 1.25em;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.p-itens label{
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.p-itens input::placeholder {
+    color: white; /* Define a cor do texto do placeholder */
+    font-size: 0.75em;
+}
+
+
+.btn{
+    margin-top: 10px;
+    border: 0px;
+    width: 40%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #264f44;
+    outline: none; 
+    color: white;
+}
+
+
+footer{
+    background-color: #1E2326;
+    text-align: center;
+    font-size: 1em;
+    padding: 30px;
+}

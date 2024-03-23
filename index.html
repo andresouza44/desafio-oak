@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro e Listagem de Produtos</title>
+
+</head>
+<body>
+    <header>Cadastro e Listagem de Produtos</header>
+    <main>
+        <div class="cadastro">
+            <h1>Cadastro:</h1>
+            <form class="form-cadastro" action="">
+                <p class="p-itens">
+                    <label for="iproduto">Nome do Produto:</label>
+                    <input class="input produto" type="text" placeholder="Nome do Produto" name="produto" id="iproduto" required> 
+                </p>
+                 
+                <p class = "p-itens">
+                    <label for="idescricao">Descrição do Produto: </label>
+                    <input class="input descricao" type="text" placeholder="Descrição do Produto" name="descricao" id="idescricao" value="">
+                </p>
+                
+                <p class="p-itens">
+                    <label for="ivalor">Valor do Produto:</label>
+                    <input class= "input valor" type="number" step="0.01" placeholder="Valor do Produto" 
+                        name="valor" id="ivalor" required min="0">
+                </p>
+                
+                <p class="p-itens">
+                    <legend>Disponível para Vendas:</legend>
+                    <label for="">
+                        Sim
+                        <input type="radio"  name="disponivel" id="disponivel" value ="sim" checked>
+                        Não
+                        <input type="radio"  name="disponivel" id="disponivel" value ="não" >
+                    </label>
+                </p>
+                
+               <button class="btn" >Cadastrar</button>
+
+
+            </form>
+
+        </div>
+
+       
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>Desafio Oak Tecnologia - Desenvolvido por André Martins de Souza</p>
+    </footer>
+</body>
+
+</html>
