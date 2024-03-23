@@ -3,11 +3,13 @@
 
 ## 💻 Sobre o projeto
 
-Desafio para vaga de Estágio de desenvolvimento - Oak Tecnologia
+- Desafio para vaga de Estágio de desenvolvimento - Oak Tecnologia
 
-Desenvolvido em JavaScrip, HTML e CSS.
+- Desenvolvido em JavaScrip, HTML e CSS.
 
-O Projeto pode ser vizualizado neste Link https://desafio-oak.netlify.app/
+- O Projeto pode ser vizualizado neste Link https://desafio-oak.netlify.app/
+
+- Os dados ficam salvos no Armazenamento local do navegador
 
 ### Requisitos:
 
